@@ -1,0 +1,10 @@
+tsc para compilar
+
+tsc -w ativa auto compilação
+
+"rootDir": "./src",  -> Diretorio de código
+"outDir": "./dist/js",  -> Diretorio de saida do "index".js
+"removeComments": true, -> Remover comentarios do .js final
+"experimentalDecorators": true, -> Ativar o decorator
+
+tsc -w ideal usar com o live server
